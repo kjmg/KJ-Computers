@@ -1,3 +1,8 @@
+html{
+    font-family: 'Comic Sans MS', 'choco cooky', Helvetica, Arial;
+    padding: 5px;
+}
+
 h1 {
-  color:rebeccapurple;  
+  color: #1a75ff;  
 }
