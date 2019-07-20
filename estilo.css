@@ -1,8 +1,104 @@
-html{
-    font-family: 'Comic Sans MS', 'choco cooky', Helvetica, Arial;
+html {
+    font-family: Helvetica, Arial;
+    color: #213140;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #D9580D;
+}
+
+header {
+    background: #F2911B;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #1a75ff; 
+    margin-top: 0px;
+}
+
+#logo {
+    float: left;
+}
+
+#cuenta {
+    float: right;
+}
+
+#cuenta a {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+header nav {
+    clear: both;
+    margin-left: -10px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin: 0px 10px 0px 10px;
+}
+
+ul li a {
     padding: 5px;
 }
 
-h1 {
-  color: #1a75ff;  
+section {
+    margin-bottom: 20px;
+}
+
+#promociones {
+    margin: 0px auto 20px auto;
+    text-align: center;
+}
+
+#promociones div {
+    display: inline-block;
+
+    padding: 0 5px;
+}
+
+#nosotros, #valores {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#nosotros{
+    background: #D97762;
+    padding: 20px;
+}
+
+#valores{
+    height: 150px;
+}
+
+#valores div {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
 }
