@@ -13,17 +13,17 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #D9580D;
+    color: red;
 }
 
 header {
-    background: #F2911B;
+    background: #F2EB88;
     padding: 10px;
     margin-bottom: 20px;
 }
 
 header h1 {
-    color: #1a75ff; 
+    color: #213140; 
     margin-top: 0px;
 }
 
@@ -83,8 +83,10 @@ section {
 }
 
 #nosotros{
-    background: #D97762;
+    background: #F2AD94;
     padding: 20px;
+    border-radius: 10px;
+    border-radius: 10px;
 }
 
 #valores{
